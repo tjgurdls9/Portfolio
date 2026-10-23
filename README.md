@@ -87,6 +87,10 @@ AI 호출 방식은 두 가지입니다.
 
 출처 페이지가 입력 구역의 범위를 벗어나는지 확인하는 검사도 구현했습니다. 페이지 범위의 오류를 가리는 검사이며 설명 내용 전체의 정확성을 보장하는 기능은 아닙니다. 학습 성적이나 학습 시간의 개선 효과를 정량적으로 검증한 결과는 제시하지 않습니다.
 
+### 후속 개발: MCP 연계 (V2, 구현 중)
+
+API 키 없이 사용자가 구독 중인 Claude Code, Codex, Antigravity 같은 AI 코딩 도구를 MCP로 연결하는 V2를 구현하고 있습니다. 검증용 MCP 서버로 세 도구가 레슨을 생성해 앱에 저장하고 다시 조회하는 흐름까지 확인했습니다. 이 기능은 위에서 설명한 1.4.4 배포본에 포함되어 있지 않습니다.
+
 ### 배포 및 사용
 
 앱은 별도 저장소에서 배포합니다. 설치 방법과 최신 버전은 [SKALA-FastTrack-releases](https://github.com/tjgurdls9/SKALA-FastTrack-releases)의 Releases에서, 화면별 기능은 [사용 설명서](https://tjgurdls9.github.io/SKALA-FastTrack-releases/guide.html)에서 확인할 수 있습니다. Apple Silicon Mac용이며 Apple 공증을 받지 않아 macOS 보안 설정에 따라 첫 실행이 제한될 수 있습니다.
